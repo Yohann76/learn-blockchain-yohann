@@ -1,5 +1,5 @@
-site_name: Learn linux
-site_description: Documentation for learn linux
+site_name: Learn Blockchain
+site_description: Documentation pour apprendre la blockchain (théorie, cas d'usage, technique, Solidity)
 theme:
   name: material
   language: fr
@@ -21,29 +21,32 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Introduction: 
-    - index.md
-  - Fichiers:
-    - navigation/navigation.md
-  - Permissions/User:
-    - permissions/permissions.md
-  - Processus:
-    - processus/processus.md
-  - Système/Disques:
-    - gestion/gestion.md
-  - Paquets:
-    - paquets/paquets.md
-  - Shell:
-    - shell/shell.md
-  - Réseau:
-    - reseau/reseau.md
-  - Sécurité:
-    - securite/securite.md
-  - Administration:
-    - avancé/avancé.md
-  - Projets:
-    - projets/projets.md
-  - Plus loin:
-    - next/next.md
+  - Accueil: index.md
 
+  # Partie 1 : Théorie
+  - "1. Théorie de la blockchain":
+    - Introduction à la blockchain: 01-theorie/01-introduction.md
+    - Comment ça fonctionne: 01-theorie/02-fonctionnement.md
+    - Les applications: 01-theorie/03-applications.md
+    - Smart contracts pour les débutants: 01-theorie/04-smart-contracts-debutants.md
+    - Cadre juridique et réglementation: 01-theorie/05-cadre-juridique.md
 
+  # Partie 2 : Cas d'usage et écosystème
+  - "2. Cas d'usage et écosystème":
+    - Cas d'usage (DeFi, NFT, etc.): 02-cas-usage/01-cas-usage.md
+    - Projets et écosystème: 02-cas-usage/02-projets-ecosysteme.md
+
+  # Partie 3 : Technique
+  - "3. Fonctionnement technique":
+    - Architecture et consensus: 03-technique/01-architecture-consensus.md
+    - Wallets, clés et transactions: 03-technique/02-wallets-transactions.md
+    - Réseaux et nœuds: 03-technique/03-reseaux-noeuds.md
+    - Sécurité technique: 03-technique/04-securite-technique.md
+
+  # Partie 4 : Solidity
+  - "4. Apprendre Solidity":
+    - Introduction à Solidity: 04-solidity/01-introduction.md
+    - Syntaxe et types: 04-solidity/02-syntaxe-types.md
+    - Écrire des contrats simples: 04-solidity/03-contrats-simples.md
+    - Bonnes pratiques et sécurité: 04-solidity/04-bonnes-pratiques.md
+    - Ressources: 04-solidity/05-ressources.md
